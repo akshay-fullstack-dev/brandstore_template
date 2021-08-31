@@ -1,0 +1,121 @@
+<footer class="footer-layout-1 bg-black">
+	<div class="container sticky-anchor pt-5">
+		<div class="row mb-lg-4 py-2">
+			<div class="col-sm-3 col-lg mb-3 mb-lg-3">
+				<div class="mb-2 margin-left-2rem">
+					<a href="https://www.facebook.com/endgamegear" target="_blank" rel="noopener" class="d-inline-block mr-3 mb-3 text-decoration-none ck-social-media-icons--footer">
+						<img class="img-fluid lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/social/fb.svg" alt="facebook" title="facebook" data-srcset="" data-src="https://img.endgamegear.com/assets/social/fb.svg" data-sizes="24px" width="24" height="24" sizes="24px">
+					</a>
+					<a href="https://twitter.com/endgamegear?lang=en" target="_blank" rel="noopener" class="d-inline-block mr-3 mb-3 text-decoration-none ck-social-media-icons--footer">
+						<img class="img-fluid lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/social/twitter.svg" alt="twitter" title="twitter" data-srcset="" data-src="https://img.endgamegear.com/assets/social/twitter.svg" data-sizes="24px" width="24" height="24" sizes="24px">
+					</a>
+					<a href="https://www.youtube.com/channel/UCmfZMidVOOW2TvFBfBfT4sw" target="_blank" rel="noopener" class="d-inline-block mr-3 mb-3 text-decoration-none ck-social-media-icons--footer">
+						<img class="img-fluid lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/social/youtube.svg" alt="youtube" title="youtube" data-srcset="" data-src="https://img.endgamegear.com/assets/social/youtube.svg" data-sizes="24px" width="24" height="24" sizes="24px">
+					</a>
+					<a href="https://www.instagram.com/endgamegear/" target="_blank" rel="noopener" class="d-inline-block mr-3 mb-3 text-decoration-none ck-social-media-icons--footer">
+						<img class="img-fluid lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/social/insta.svg" alt="instagram" title="instagram" data-srcset="" data-src="https://img.endgamegear.com/assets/social/insta.svg" data-sizes="24px" width="24" height="24" sizes="24px">
+					</a>
+					<a href="https://discord.com/invite/KYFKqCn" target="_blank" rel="noopener" class="d-inline-block mr-3 mb-3 text-decoration-none ck-social-media-icons--footer">
+						<img class="img-fluid lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/social/discord.svg" alt="discord" title="discord" data-srcset="" data-src="https://img.endgamegear.com/assets/social/discord.svg" data-sizes="24px" width="24" height="24" sizes="24px">
+					</a>
+				</div>
+				<a class="button-icon btn btn-outline btn-footer">
+					<i class="material-icon align-middle js-material-icon fa fa-envelope-o"></i>
+					<spinner class="spinner spinner-border spinner-border--small align-middle js-spinner d-none " data-qa="component spinner"></spinner>
+					<span class="font-15">FAQ & Contact</span>
+				</a>
+			</div>
+
+			<div class="col-sm-3 col-lg mb-3 mb-lg-3">
+				<h4 class="">Shop</h4>
+				<ul class="nav flex-column">
+					<li class="node nav-item" data-qa="component node">
+						{% if app.request.pathinfo == '/noblechair' %}
+							<a href="/mouse" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Premium Stühle</a>
+						{% else %}
+							<a href="/mouse" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Mice</a>
+						{% endif %}
+					</li>
+
+
+					<li class="node nav-item" data-qa="component node">
+						{% if app.request.pathinfo == '/noblechair' %}
+							<a href="/mouse" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Limited Editions</a>
+						{% else %}
+							<a href="/mouse" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Mousepads</a>
+						{% endif %}
+					</li>
+					<li class="node nav-item" data-qa="component node">
+						{% if app.request.pathinfo == '/noblechair' %}
+							<a href="/mouse" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Zubehör</a>
+						{% else %}
+							<a href="/mouse" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Accessories</a>
+						{% endif %}
+					</li>
+
+					{% if app.request.pathinfo != '/noblechair' %}
+						<li class="node nav-item" data-qa="component node">
+							<a href="/mouse" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Downloads</a>
+						</li>
+					{% endif %}
+				</ul>
+			</div>
+
+			<div class="col-sm-3 col-lg mb-3 mb-lg-3 order-4">
+				<h4 class="">Information</h4>
+
+				<ul class="nav flex-column">
+
+					<li class="node nav-item" data-qa="component node">
+						<a href="/returns" class="nav-link d-none--checkout text-white color-hover-dark pl-0">Returns</a>
+					</li>
+
+
+					<li class="node nav-item">
+						<a href="https://www.endgamegear.com/resellers" class="nav-link d-none--checkout text-white color-hover-dark pl-0" target="_blank" rel="noopener">International Resellers</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="col-sm-3 col-lg mb-3 mb-lg-3 order-last">
+
+				<h4 class="">Pay with</h4>
+
+
+				<img class="payment-graphic d-inline-block d-lg-block mr-5 mr-md-3 mr-lg-0 mb-4  ls-is-cached lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/payment/paypal-white.svg" alt="paypal" title="paypal" data-srcset="" data-src="https://img.endgamegear.com/assets/payment/paypal-white.svg" data-sizes="78px" sizes="78px">
+
+
+				<img class="payment-graphic d-inline-block d-lg-block mr-5 mr-md-3 mr-lg-0 mb-4  ls-is-cached lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/payment/visa-white.svg" alt="visa" title="visa" data-srcset="" data-src="https://img.endgamegear.com/assets/payment/visa-white.svg" data-sizes="78px" sizes="78px">
+
+
+				<img class="payment-graphic d-inline-block d-lg-block mr-5 mr-md-3 mr-lg-0 mb-4  ls-is-cached lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/payment/mastercard-white.svg" alt="mastercard" title="mastercard" data-srcset="" data-src="https://img.endgamegear.com/assets/payment/mastercard-white.svg" data-sizes="78px" sizes="78px">
+
+
+				<img class="payment-graphic d-inline-block d-lg-block mr-5 mr-md-3 mr-lg-0 mb-4  ls-is-cached lazyloaded" data-qa="component ck-img" src="https://img.endgamegear.com/assets/payment/maestro-white.svg" alt="maestro" title="maestro" data-srcset="" data-src="https://img.endgamegear.com/assets/payment/maestro-white.svg" data-sizes="78px" sizes="78px">
+
+			</div>
+			<div class="col-sm-2 col-lg mb-3 mb-lg-3 order-2 order-sm-last">
+
+				<div class="d-flex flex-column">
+					<span class="text-white mb-2">Language</span>
+					<a class="button-icon btn btn-outline btn-footer text-align-left">
+						<i class="material-icon align-middle js-material-icon fa fa-language"></i>
+						{# <spinner class="spinner spinner-border spinner-border--small align-middle js-spinner d-none " data-qa="component spinner"></spinner> #}
+						<span class="font-15">English</span>
+					</a>
+					<span class="text-white mb-2 mt-3">Ship To</span>
+					<a class="button-icon btn btn-outline btn-footer text-align-left">
+						<i class="material-icon align-middle js-material-icon fa fa-map-marker"></i>
+						{# <spinner class="spinner spinner-border spinner-border--small align-middle js-spinner d-none " data-qa="component spinner"></spinner> #}
+						<span class="font-15">Germany</span>
+					</a>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+</footer>

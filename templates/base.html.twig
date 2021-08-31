@@ -1,0 +1,47 @@
+{# {{ app.request.pathinfo }} #}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+
+			{% block title %}
+				{% if app.request.pathinfo == '/noblechair' %}
+					TX Series Büro- und Gaming-Stühle mit Stoffbezug | noblechairs
+				{% else %}
+					Endgame Gear - The Game Changer
+				{% endif %}
+			{% endblock %}
+		</title>
+
+		{% block stylesheets %}
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+			<link rel="stylesheet" href="{{asset('css/style.css')}}">
+			<link rel="stylesheet" href="{{asset('css/footer.css')}}">
+			<link rel="stylesheet" href="{{asset('css/main.css')}}">
+			{% if app.request.pathinfo == '/noblechair' %}
+				<link rel="stylesheet" href="{{asset('css/nobelchair/style.css')}}">
+			{% endif %}
+			<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+		{% endblock %}
+
+		{% block javascripts %}
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+			<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+			{#{{ encore_entry_script_tags('app') }}#}
+		{% endblock %}
+	</head>
+	<body>
+		{%block header%}
+		{% include ('nav/navbar.html.twig') %}
+		{%endblock%}
+		{% block body %}{% endblock %}
+
+	</body>
+</html>

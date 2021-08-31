@@ -1,0 +1,86 @@
+<!-- Image and text -->
+<nav class="d-flex align-items-center header-layout-2">
+	<div class="container container-fluid-max-sm-px-0 header-inner d-flex align-items-center justify-content-center">
+		<div class="main-nav navigation-wrapper navbar-expand-lg order-lg-2">
+			<div class="custom-element navigation-horizontal">
+				<nav class="d-lg-flex">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse menu" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="node nav-item">
+								{% if app.request.pathinfo == '/noblechair' %}
+									<a class="nav-link" href="#">Premium Stühle</a>
+								{% else %}
+									<a class="nav-link" href="#">Mice
+									{% endif %}
+								</a>
+							</li>
+							<li class="node nav-item">
+								{% if app.request.pathinfo == '/noblechair' %}
+									<a class="nav-link" href="#">Limited Editions</a>
+								{% else %}
+									<a class="nav-link" href="#">Mousepads</a>
+								{% endif %}
+
+							</li>
+							<li class="node nav-item">
+								{% if app.request.pathinfo == '/noblechair' %}
+									<a class="nav-link" href="#">Zubehör</a>
+								{% else %}
+									<a class="nav-link" href="#">Accessories</a>
+								{% endif %}
+
+							</li>
+							{% if app.request.pathinfo != '/noblechair' %}
+								<li class="node nav-item">
+									<a class="nav-link" href="#">Downloads</a>
+								</li>
+							{% endif %}
+							<div class="c-left">
+								<li class="nav-item">
+									<a class="nav-link" href="https://en.endgamegear.de/login" role="button" title="Login">
+										<i class=" fa fa-user" aria-hidden="true"></i>
+
+									</a>
+								</li>
+								<li class="nav-item p-left">
+									<div class="custom-element ck-cart-dropdown js-ck-cart-dropdown order-4">
+										<div class="ck-cart-dropdown__container d-flex align-items-center">
+											<a class="cart-items-counter d-flex" data-qa="component cart-items-counter" href="https://en.endgamegear.de/cart">
+												<span class="cart-items-counter-inner ">
+													<i class=" material-icon material-icon--bright cart-items-counter__icon align-middle d-inline-block js-material-icon fa fa-shopping-cart" aria-hidden="true"></i>
+													<span class="cart-items-counter__label d-none">Cart</span>
+
+												</span>
+
+											</a>
+										</div>
+									</div>
+								</li>
+							</div>
+
+						</ul>
+					</div>
+
+
+				</nav>
+			</div>
+
+
+		</div>
+
+
+		<div class="logo store-logo d-flex align-items-center order-lg-1">
+			<a class="h-100 d-flex align-items-center">
+				{% if app.request.pathinfo == '/noblechair' %}
+					<img class="img-fluid" src="https://assets.noblechairs.com/assets/noblechairs/images/logo.svg" alt="Logo">
+				{% else %}
+					<img class="img-fluid" src="https://assets.endgamegear.com/assets/endgamegear/images/logo.svg" alt="Logo">
+				{% endif %}
+
+			</a>
+			<div></div>
+		</nav>

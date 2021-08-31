@@ -1,0 +1,206 @@
+{{ include('base.html.twig') }}
+{% block body %}
+  <main>
+    <section class="home">
+      <div class="container hero">
+        {# Used to Main bannner section #}
+        <div class="row d-flex justify-content-center align-items-center py-5">
+          <div class="col-md-8 col-lg-5 text-center order-last">
+            <img class="img-fluid w-75 lazyloaded"
+              data-qa="component ck-img"
+              src="https://img.endgamegear.com/hp/xm1_r_hero.png"
+              alt="XM1r"
+              title="XM1r"
+              data-srcset="https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=100 100w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=116 116w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=134 134w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=156 156w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=182 182w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=210 210w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=244 244w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=282 282w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=328 328w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=380 380w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=442 442w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=512 512w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=594 594w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=688 688w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=798 798w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=926 926w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1074 1074w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1246 1246w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1446 1446w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1678 1678w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1946 1946w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2258 2258w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2618 2618w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3038 3038w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3524 3524w,"
+              data-src="https://img.endgamegear.com/hp/xm1_r_hero.png"
+              data-sizes="(min-width: 768px) 500px, 400px"
+              sizes="(min-width: 768px) 500px, 400px"
+              srcset="https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=100 100w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=116 116w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=134 134w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=156 156w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=182 182w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=210 210w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=244 244w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=282 282w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=328 328w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=380 380w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=442 442w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=512 512w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=594 594w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=688 688w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=798 798w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=926 926w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1074 1074w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1246 1246w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1446 1446w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1678 1678w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1946 1946w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2258 2258w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2618 2618w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3038 3038w,https://img.endgamegear.com/hp/xm1_r_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3524 3524w," />
+          </div>
+          <div class="col-lg-5 order-first order-lg-last text-center text-lg-left">
+            <h1 class="mb-4 title-hero">
+              Endgame Gear –
+              <span class="d-block">Precision redefined.</span>
+            </h1>
+            <p class="mb-4">
+              Now with new sensor, switches, and skate design,improved cable,
+              and new color options!
+            </p>
+            <a class="mt-2 mb-5 mb-lg-0 button-icon btn btn-primary align-middle pr-4"
+              data-qa="component button-icon"
+              href="/xm1r/gaming-mice">
+              <i class="fa fa-caret-right" aria-hidden="true"></i>
+              <span>Learn more</span>
+            </a>
+          </div>
+        </div>
+        {# end banner section #}
+      </div>
+      {# start midel block section #}
+      <div class="about d-flex">
+        <div class="bucket align-self-center">
+          <div class="row py-5">
+            <div class="col-10 offset-1 col-md-6 offset-md-3 mt-1 text-center align-self-center">
+              <img class="img-fluid my-5 monogramm"
+                ix-path="hp/monogramm.svg"
+                alt="Endgame Gear Logo"
+                sizes="100vw"
+                srcset="https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=100 100w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=116 116w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=134 134w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=156 156w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=182 182w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=210 210w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=244 244w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=282 282w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=328 328w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=380 380w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=442 442w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=512 512w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=594 594w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=688 688w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=798 798w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=926 926w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1074 1074w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1246 1246w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1446 1446w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1678 1678w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1946 1946w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=2258 2258w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=2618 2618w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=3038 3038w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=3524 3524w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=4088 4088w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=4742 4742w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=5500 5500w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=6380 6380w, https://img.endgamegear.com/hp/monogramm.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=7400 7400w"
+                src="https://img.endgamegear.com/hp/monogramm.svg?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2"
+                ix-initialized="ix-initialized" />
+              <p class="mb-3">
+                The Key To Success Lies<span class="text-primary d-block">
+                  In Your Hand
+                </span>-Literally
+              </p>
+              <p class="mb-5 f-size-15">
+                We at Endgame Gear are passionate about gaming and want to
+                enable all players to take it to the next level by creating the
+                optimal gaming instruments they need. We believe that remarkable
+                gaming achievements are possible through subtle advancements in
+                technology and innovative features in the right places. The
+                proper gear can turn defeat into victory in any gamer’s career
+                and small changes can yield fundamental results. So why let
+                sub-par technology stand in your way? Endgame Gear makes sure
+                that every gamer’s dreams may come to fruition.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {# end middle block section #}
+
+      {# third section start #}
+      <div class="container hero">
+        <div class="row d-flex justify-content-center align-items-center py-5">
+          <div class="col-md-8 col-lg-5 text-center order-last">
+            <img class="img-fluid w-75 lazyloaded"
+              data-qa="component ck-img"
+              src="https://img.endgamegear.com/hp/xm1_rgb_hero.png"
+              alt="XM1rgb"
+              title="XM1rgb"
+              data-srcset="https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=100 100w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=116 116w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=134 134w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=156 156w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=182 182w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=210 210w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=244 244w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=282 282w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=328 328w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=380 380w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=442 442w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=512 512w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=594 594w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=688 688w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=798 798w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=926 926w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1074 1074w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1246 1246w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1446 1446w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1678 1678w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1946 1946w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2258 2258w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2618 2618w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3038 3038w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3524 3524w,"
+              data-src="https://img.endgamegear.com/hp/xm1_rgb_hero.png"
+              data-sizes="(min-width: 768px) 500px, 400px"
+              sizes="(min-width: 768px) 500px, 400px"
+              srcset="https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=100 100w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=116 116w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=134 134w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=156 156w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=182 182w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=210 210w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=244 244w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=282 282w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=328 328w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=380 380w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=442 442w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=512 512w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=594 594w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=688 688w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=798 798w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=926 926w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1074 1074w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1246 1246w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1446 1446w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1678 1678w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1946 1946w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2258 2258w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2618 2618w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3038 3038w,https://img.endgamegear.com/hp/xm1_rgb_hero.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3524 3524w," />
+          </div>
+          <div class="col-lg-5 order-first order-lg-last text-center text-lg-left">
+            <h1 class="mb-4 title-hero">
+              NEW!
+              <span class="d-block">XM1 RGB</span>
+            </h1>
+            <p class="mb-4">
+              Professional gaming mouse made for ambitious gamers with style.
+            </p>
+            <a class="mt-2 mb-5 mb-lg-0 button-icon btn btn-primary align-middle pr-4"
+              data-qa="component button-icon"
+              href="/xm1r/gaming-mice">
+              <i class="fa fa-caret-right" aria-hidden="true"></i>
+              <span>Shop Now</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      {# end third section #}
+
+      {# fouth section start #}
+      {# <div class="container-fluid">
+							<div class="row">
+								<div class="col p-0">
+									<div class="ck-video ck-video__wrapper col-12 p-0">
+										<stream src="303c9131853cd4ca81848e539755d807" controls="" preload="" mute="">
+											<div style="position: relative; height: 0px; width: 100%; padding-top: 56.25%;">
+												<iframe src="https://embed.videodelivery.net/embed/iframe.fla9.e15ae8e.html?videoId=303c9131853cd4ca81848e539755d807" allowfullscreen="true" allow="autoplay; picture-in-picture" style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; border: none;"></iframe>
+											</div>
+										</stream>
+										<script data-cfasync="false" defer="" type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=303c9131853cd4ca81848e539755d807"></script>
+									</div>
+								</div>
+							</div>
+						</div> #}
+      {# fourt section end #}
+
+      {# fifth section start #}
+      <div class="container hero">
+        <div class="row d-flex justify-content-center align-items-center py-5">
+          <div class="col-md-8 col-lg-5 text-center order-last">
+            <img class="img-fluid w-75 lazyloaded"
+              data-qa="component ck-img"
+              src="https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png"
+              alt="XM1rgb"
+              title="XM1rgb"
+              data-srcset="https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=100 100w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=116 116w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=134 134w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=156 156w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=182 182w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=210 210w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=244 244w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=282 282w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=328 328w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=380 380w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=442 442w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=512 512w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=594 594w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=688 688w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=798 798w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=926 926w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1074 1074w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1246 1246w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1446 1446w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1678 1678w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1946 1946w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2258 2258w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2618 2618w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3038 3038w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3524 3524w,"
+              data-src="https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png"
+              data-sizes="(min-width: 768px) 500px, 400px"
+              sizes="(min-width: 768px) 500px, 400px"
+              srcset="https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=100 100w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=116 116w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=134 134w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=156 156w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=182 182w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=210 210w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=244 244w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=282 282w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=328 328w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=380 380w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=442 442w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=512 512w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=594 594w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=688 688w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=798 798w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=926 926w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1074 1074w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1246 1246w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1446 1446w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1678 1678w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=1946 1946w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2258 2258w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=2618 2618w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3038 3038w,https://img.endgamegear.com/products/Store-Listing-EGG-MPC.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;w=3524 3524w," />
+          </div>
+          <div class="col-lg-5 order-first order-lg-last text-center text-lg-left">
+            <h1 class="mb-4 title-hero">
+              MPC CORDURA®
+              <span class="d-block">Gaming Mousepads</span>
+            </h1>
+            <p class="mb-4">
+              Professional gaming mouse made for ambitious gamers with style.
+            </p>
+            <a class="mt-2 mb-5 mb-lg-0 button-icon btn btn-primary align-middle pr-4"
+              data-qa="component button-icon"
+              href="/xm1r/gaming-mice">
+              <i class="fa fa-caret-right" aria-hidden="true"></i>
+              <span>Shop now</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      {# fifth section end #}
+
+      {# sixth section start #}
+      <div class="container sprout dark sprout-member">
+        <div class="row pt-5">
+          <div class="col-12 col-xl-10 pt-lg-5 text-center mx-auto">
+            <div class="row">
+              <div class="order-last col-8 offset-2 col-md-4 offset-md-4 order-lg-first col-lg-5 offset-lg-0">
+                <img class="img-fluid"
+                  ix-path="hp/sprout-member-2020.png"
+                  alt="Spiidi - SproutGG"
+                  sizes="100vw"
+                  srcset="https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=100 100w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=116 116w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=134 134w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=156 156w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=182 182w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=210 210w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=244 244w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=282 282w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=328 328w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=380 380w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=442 442w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=512 512w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=594 594w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=688 688w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=798 798w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=926 926w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1074 1074w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1246 1246w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1446 1446w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1678 1678w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1946 1946w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=2258 2258w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=2618 2618w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=3038 3038w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=3524 3524w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=4088 4088w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=4742 4742w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=5500 5500w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=6380 6380w, https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=7400 7400w"
+                  src="https://img.endgamegear.com/hp/sprout-member-2020.png?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2"
+                  ix-initialized="ix-initialized" />
+              </div>
+              <div class="order-first col-10 offset-1 col-lg-7 offset-lg-0 order-lg-last">
+                <img class="img-fluid my-5 sprout-logo"
+                  ix-path="hp/sprout-logo.svg"
+                  alt="Sprout Logo"
+                  sizes="100vw"
+                  srcset="https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=100 100w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=116 116w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=134 134w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=156 156w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=182 182w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=210 210w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=244 244w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=282 282w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=328 328w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=380 380w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=442 442w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=512 512w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=594 594w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=688 688w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=798 798w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=926 926w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1074 1074w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1246 1246w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1446 1446w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1678 1678w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=1946 1946w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=2258 2258w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=2618 2618w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=3038 3038w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=3524 3524w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=4088 4088w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=4742 4742w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=5500 5500w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=6380 6380w, https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress,format&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2&amp;w=7400 7400w"
+                  src="https://img.endgamegear.com/hp/sprout-logo.svg?auto=compress%2Cformat&amp;fit=max&amp;q=70&amp;ixlib=imgixjs-3.4.2"
+                  ix-initialized="ix-initialized" />
+                <h3 class="mb-3 text-left">
+                  Recommended by
+                  <span class="text-primary">esports Veterans:</span>
+                </h3>
+                <p class="mb-5 text-left">
+                  Real gaming champions immediately feel the difference:
+                </p>
+                <p class="mb-5 text-left pl-5 py-2 quote">
+                  As professional players, we are always looking for
+                  opportunities to improve. The XM1 gaming mouse provides an
+                  incredible technology-based advantage we haven't seen before.
+                  The whole team is very excited to use it in the upcoming
+                  season.
+                  <span class="text-primary d-block">— Spiidi - SproutGG</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {# sixth section end #}
+    </section>
+  </main>
+{% endblock %}
+{% block footer %}
+  {% include 'footer/footer.html.twig' %}
+{% endblock %}

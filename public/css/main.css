@@ -1,0 +1,236 @@
+body main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+@media (min-width: 768px) {
+  .home .hero {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.home .hero {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+img {
+  border-style: none;
+}
+.order-last {
+  -webkit-box-ordinal-group: 14;
+  -ms-flex-order: 13;
+  order: 13;
+}
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+}
+@media (min-width: 992px) {
+  .order-lg-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+  }
+}
+/* @media (min-width: 992px) {
+  .home h1.title-hero {
+    font-size: 3.25rem;
+  }
+} */
+
+.home h1.title-hero {
+  font-family: Aguda-Regular, sans-serif;
+  color: #fcfcfc;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+.home h1.title-hero span {
+  color: #fdc415;
+}
+.d-block {
+  display: block !important;
+}
+.home h1.title-hero + p {
+  font-size: 15px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.button-icon {
+  -webkit-transition: width 5s;
+  transition: width 5s;
+  padding: 0.25rem 1.25rem;
+}
+.btn-primary,
+.btn-primary-dark {
+  border-radius: 0;
+  text-transform: none;
+  z-index: 500;
+}
+
+.btn-primary {
+  color: #141414;
+  background-color: #fdc415;
+  border-color: #fdc415;
+}
+.btn {
+  font-family: Aguda-Bold, sans-serif;
+  border-radius: 0;
+  font-weight: 400;
+  padding: 0.5rem 1.25rem;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  z-index: 50;
+}
+.button-icon.btn-primary i {
+  color: #141414;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+.button-icon.btn-primary i {
+  color: #fff;
+}
+.button-icon i {
+  vertical-align: middle;
+}
+.button-icon i,
+.button-icon span {
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .home .about {
+    height: 100vh;
+    padding-top: 4rem;
+    max-height: 100rem;
+  }
+}
+.home .about {
+  background: url(https://img.endgamegear.com/hp/about-wallpaper.jpg?auto=compress%2Cformat&fit=max&q=70)
+    no-repeat;
+  background-size: cover;
+}
+.align-self-center {
+  -ms-flex-item-align: center !important;
+  align-self: center !important;
+}
+
+.home .monogramm,
+.home .sprout-logo {
+  max-width: 8rem;
+}
+.text-primary {
+  color: #fdc415 !important;
+}
+@media (min-width: 1200px) {
+  .bucket {
+    max-width: 1140px;
+  }
+}
+.h1,
+.h2,
+h1,
+h2 {
+  font-family: Aguda-Bold, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+.f-size-15 {
+  font-size: 15px;
+}
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+}
+.text-center {
+  text-align: center !important;
+}
+@media (min-width: 992px) {
+  .order-lg-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+  }
+}
+
+@media (min-width: 992px) {
+  .home h1.title-hero {
+    font-size: 3.25rem;
+  }
+}
+.ck-video__wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .home .sprout-member {
+    background: url(https://img.endgamegear.com/assets/pattern-lines-yellow.svg?auto=compress%2Cformat&fit=max&q=70)
+        0 100% no-repeat,
+      #272727;
+    background-size: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .home .sprout-member {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .home .sprout-member {
+    background-size: 150%;
+  }
+}
+
+.home .sprout-member {
+  background: url(https://img.endgamegear.com/assets/pattern-lines-yellow.svg?auto=compress%2Cformat&fit=max&q=70)
+      center 150% no-repeat,
+    #272727;
+  background-size: 200%;
+}
+.dark {
+  background-color: #141414;
+}
+.home .quote {
+    border-left: 2px solid #fdc415;
+}
